@@ -1,6 +1,8 @@
 import  Parrafo from './components/Parrafo'
 import Contador from './components/Contador'
 import User from './components/User'
+import Foco from './components/Foco'
+
 
 function App() {
   return (
@@ -9,6 +11,10 @@ function App() {
       <Parrafo></Parrafo> 
       <Contador></Contador>
       <User></User>
+      <Foco lugar="Sala"></Foco>
+      <Foco lugar="Cocina"></Foco>
+      <Foco lugar="Recamara"></Foco>
+      <Foco lugar="Patio"></Foco>
     </div>
   );
 }
